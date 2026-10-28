@@ -115,7 +115,7 @@ def suggested_action(drivers, prob):
     return 'Suggested action: ' + ' and '.join(acts) + '.'
 
 
-st.set_page_config(page_title='Telco Churn Predictor', page_icon='📞', layout='centered')
+st.set_page_config(page_title='Telco Churn Predictor', layout='centered')
 
 st.markdown("""
 <style>
